@@ -6,7 +6,7 @@
 Path=$PATH:~/bin
 export PATH
 echo "Plese input your birthday, I will tell you how many days before it."
-read -p "Please input(yyyymmdd):" bir
+read -p "Please input(mmdd):" bir
 #计算日期
 now=$(date +%m%d)
 if [ "${bir}" == "${now}" ]; then
