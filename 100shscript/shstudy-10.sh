@@ -1,6 +1,7 @@
 #!/bin/bash
 #Program:
 #	依次提示用户输入3个整数，脚本根据数字大小依次排序输出3个数字
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 read -p "请输入一个整数：" num1
 read -p "请输入一个整数：" num2
 read -p "请输入一个整数：" num3
